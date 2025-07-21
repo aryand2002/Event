@@ -1,68 +1,42 @@
 import React from 'react';
-import {
-  FaBirthdayCake,
-  FaRing,
-  FaGlassCheers,
-  FaBaby,
-  FaBuilding,
-} from 'react-icons/fa';
-import { RiFlowerLine } from 'react-icons/ri';
+import Img from '../assets/Image/people-festival.jpg';
 
-const Functions = () => {
-  const functions = [
-    {
-      title: 'Birthdays',
-      desc: 'Vibrant balloon setups and themes.',
-      icon: <FaBirthdayCake size={30} className="text-pink-500" />,
-    },
-    {
-      title: 'Weddings',
-      desc: 'Luxurious decor for your dream wedding.',
-      icon: <FaRing size={30} className="text-yellow-500" />,
-    },
-    {
-      title: 'Anniversaries',
-      desc: 'Romantic themes for milestones.',
-      icon: <FaGlassCheers size={30} className="text-red-500" />,
-    },
-    {
-      title: 'Baby Showers',
-      desc: 'Charming welcome corners.',
-      icon: <FaBaby size={30} className="text-blue-400" />,
-    },
-    {
-      title: 'Corporate Events',
-      desc: 'Professional setups for business.',
-      icon: <FaBuilding size={30} className="text-gray-700" />,
-    },
-    {
-      title: 'Social Gatherings',
-      desc: 'Creative decor for any occasion.',
-      icon: <RiFlowerLine size={30} className="text-green-500" />,
-    },
-  ];
-
+const Offer = () => {
   return (
-    <section id="functions" className="py-20 bg-gray-50 fade-in">
-      <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">Functions We Cover</h2>
-        <p className="text-gray-600 mb-12">Making every event memorable and magical!</p>
+    <section
+      id="offer"
+      className="relative bg-cover bg-center bg-no-repeat py-20 px-4 sm:px-6 lg:px-8 text-white"
+      style={{
+        backgroundImage: `url(${Img})`,
+      }}
+      data-aos="zoom-in"
+    >
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {functions.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-transform transform hover:-translate-y-1"
-            >
-              <div className="mb-4">{item.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">{item.title}</h3>
-              <p className="text-gray-600">{item.desc}</p>
-            </div>
-          ))}
-        </div>
+      {/* Content */}
+      <div className="relative z-10 max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#FFD700] mb-4 drop-shadow-md">
+          🎉 Exclusive Offer!
+        </h2>
+        <p className="text-lg sm:text-xl text-white mb-6 drop-shadow-sm">
+          Book now and get a special discount on Balloon Decoration and Special Effects!
+        </p>
+        <a
+          href="https://wa.me/918319594037"
+          className="inline-block bg-[#d4af37] hover:bg-[#c19c2b] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300"
+        >
+          <span style={{ textShadow: '1px 1px 2px white' }}>
+            Book Now
+          </span>
+        </a>
+
+        <p className="mt-4 text-sm text-gray-300 italic">
+          *Offer valid for a limited time only
+        </p>
       </div>
     </section>
   );
 };
 
-export default Functions;
+export default Offer;
