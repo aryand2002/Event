@@ -1,114 +1,147 @@
-// src/components/Contact.js
 import React from 'react';
 import {
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
-  FaInstagram,
-} from 'react-icons/fa';
+  EnvironmentOutlined,
+  PhoneOutlined,
+  MailOutlined,
+  InstagramOutlined,
+} from '@ant-design/icons';
+import { Form, Input, Button } from 'antd';
+
+const { TextArea } = Input;
 
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 px-4 bg-gray-50 fade-in">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8 text-gray-800">Get in Touch</h2>
+  const handleSubmit = (values) => {
+    console.log('Form values:', values);
+    // You can integrate EmailJS / backend endpoint here
+  };
 
-        <div className="grid md:grid-cols-2 gap-10 mb-12 text-left">
-          <div className="space-y-4 text-gray-700">
-            <p className="flex items-start gap-3">
-              <FaMapMarkerAlt className="text-pink-600 text-xl mt-1" />
-              <span>
-                <strong>Location:</strong> Raipur, Chhattisgarh
-              </span>
-            </p>
-            <p className="flex items-start gap-3">
-              <FaPhone className="text-pink-600 text-xl mt-1" />
-              <span>
-                <strong>Phone:</strong>{' '}
-                <a
-                  href="tel:8319594037"
-                  className="text-blue-600 hover:underline"
-                >
-                  8319594037
-                </a>
-              </span>
-            </p>
-            <p className="flex items-start gap-3">
-              <FaEnvelope className="text-pink-600 text-xl mt-1" />
-              <span>
-                <strong>Email:</strong>{' '}
-                <a
-                  href="mailto:soniblissfulevents@gmail.com"
-                  className="text-blue-600 hover:underline"
-                >
-                  soniblissfulevents@gmail.com
-                </a>
-              </span>
-            </p>
-            <p className="flex items-start gap-3">
-              <FaInstagram className="text-pink-600 text-xl mt-1" />
-              <span>
-                <strong>Instagram:</strong>{' '}
-                <a
-                  href="https://www.instagram.com/soni_blissful_events?igsh=MWl6ejA5aDM0NzBhNw=="
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-blue-600 hover:underline"
-                >
-                  @soni_blissful_events
-                </a>
-              </span>
-            </p>
+  return (
+    <section id="contact" className="py-24 bg-[#fffaf0] text-gray-800">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-4xl font-bold text-center mb-12 text-yellow-700">
+          Get in <span className="text-yellow-900">Touch</span>
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-10 items-start">
+          {/* Left Section: Info & Map */}
+          <div className="space-y-6">
+            <div className="space-y-4 text-base">
+              <p className="flex items-start gap-3">
+                <EnvironmentOutlined className="text-yellow-600 text-xl mt-1" />
+                <span>
+                  <strong>Location:</strong> Raipur, Chhattisgarh
+                </span>
+              </p>
+              <p className="flex items-start gap-3">
+                <PhoneOutlined className="text-yellow-600 text-xl mt-1" />
+                <span>
+                  <strong>Phone:</strong>{' '}
+                  <a href="tel:8319594037" className="text-blue-700 hover:underline">
+                    8319594037
+                  </a>
+                </span>
+              </p>
+              <p className="flex items-start gap-3">
+                <MailOutlined className="text-yellow-600 text-xl mt-1" />
+                <span>
+                  <strong>Email:</strong>{' '}
+                  <a
+                    href="mailto:soniblissfulevents@gmail.com"
+                    className="text-blue-700 hover:underline"
+                  >
+                    soniblissfulevents@gmail.com
+                  </a>
+                </span>
+              </p>
+              <p className="flex items-start gap-3">
+                <InstagramOutlined className="text-yellow-600 text-xl mt-1" />
+                <span>
+                  <strong>Instagram:</strong>{' '}
+                  <a
+                    href="https://www.instagram.com/soni_blissful_events"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    @soni_blissful_events
+                  </a>
+                </span>
+              </p>
+            </div>
+
+            {/* Google Maps */}
+            <div className="mt-6">
+              <iframe
+                src="https://maps.google.com/maps?q=Raipur%2C%20Chhattisgarh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="250"
+                className="rounded-xl border-2 border-yellow-200 shadow-sm"
+                loading="lazy"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
 
-          <form
-            action="mailto:soniblissfulevents@gmail.com"
-            method="post"
-            encType="text/plain"
-            className="space-y-4"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"
-            />
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Your Phone"
-              required
-              className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"
-            />
-            <input
-              type="text"
-              name="event_type"
-              placeholder="Event Type"
-              required
-              className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows="5"
-              required
-              className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700 transition duration-200"
+          {/* Right Section: Form */}
+          <div className="bg-white p-6 rounded-2xl shadow-lg border border-yellow-100">
+            <Form
+              layout="vertical"
+              onFinish={handleSubmit}
+              requiredMark={false}
+              autoComplete="off"
             >
-              Send Message
-            </button>
-          </form>
+              <Form.Item
+                label="Your Name"
+                name="name"
+                rules={[{ required: true, message: 'Please enter your name' }]}
+              >
+                <Input size="large" placeholder="John Doe" />
+              </Form.Item>
+
+              <Form.Item
+                label="Phone Number"
+                name="phone"
+                rules={[{ required: true, message: 'Please enter your phone number' }]}
+              >
+                <Input size="large" placeholder="8319594037" />
+              </Form.Item>
+
+              <Form.Item
+                label="Email Address"
+                name="email"
+                rules={[{ required: true, message: 'Please enter your email' }]}
+              >
+                <Input size="large" type="email" placeholder="your@email.com" />
+              </Form.Item>
+
+              <Form.Item
+                label="Event Type"
+                name="event_type"
+                rules={[{ required: true, message: 'Please mention the event type' }]}
+              >
+                <Input size="large" placeholder="Wedding, Birthday, etc." />
+              </Form.Item>
+
+              <Form.Item
+                label="Message"
+                name="message"
+                rules={[{ required: true, message: 'Please type your message' }]}
+              >
+                <TextArea rows={4} placeholder="Tell us more about your requirements..." />
+              </Form.Item>
+
+              <Form.Item>
+                <Button
+                  type="primary"
+                  htmlType="submit"
+                  size="large"
+                  className="bg-yellow-600 hover:bg-yellow-700 border-none w-full"
+                >
+                  Send Message
+                </Button>
+              </Form.Item>
+            </Form>
+          </div>
         </div>
       </div>
     </section>

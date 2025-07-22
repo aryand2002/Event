@@ -1,0 +1,578 @@
+[
+  {
+  "id": 1,
+  "category": "BirthdayDecorations",
+  "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+  "description": "Customized balloon, theme-based backdrops, cutouts & lights – for kids & adults.",
+  "price": 1000,
+  "name": "Themed Birthday Blast"
+},
+  {
+    "id": 2,
+    "category": "BirthdayDecorations",
+    "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+    "description": "Customized balloon, theme-based backdrops, cutouts & lights \u2013 for kids & adults.",
+    "price": 1500,
+    "name": "Premium Balloon Bash"
+  },
+  {
+    "id": 3,
+    "category": "BirthdayDecorations",
+    "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+    "description": "Customized balloon, theme-based backdrops, cutouts & lights \u2013 for kids & adults.",
+    "price": 2000,
+    "name": "Elegant Party Pop"
+  },
+  {
+    "id": 4,
+    "category": "BirthdayDecorations",
+    "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+    "description": "Customized balloon, theme-based backdrops, cutouts & lights \u2013 for kids & adults.",
+    "price": 2000,
+    "name": "Themed Birthday Blast"
+  },
+  {
+    "id": 5,
+    "category": "BirthdayDecorations",
+    "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+    "description": "Customized balloon, theme-based backdrops, cutouts & lights \u2013 for kids & adults.",
+    "price": 1200,
+    "name": "Premium Balloon Bash"
+  },
+  {
+    "id": 6,
+    "category": "BirthdayDecorations",
+    "image": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+    "description": "Customized balloon, theme-based backdrops, cutouts & lights \u2013 for kids & adults.",
+    "price": 1000,
+    "name": "Elegant Party Pop"
+  },
+  {
+    "id": 7,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=1",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 1500,
+    "name": "Elegant Nuptial Affair"
+  },
+  {
+    "id": 8,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=2",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 1500,
+    "name": "Floral Varmala Stage"
+  },
+  {
+    "id": 9,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=3",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 1800,
+    "name": "Elegant Nuptial Affair"
+  },
+  {
+    "id": 10,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=4",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 2000,
+    "name": "Floral Varmala Stage"
+  },
+  {
+    "id": 11,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=5",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 2000,
+    "name": "Royal Wedding Bliss"
+  },
+  {
+    "id": 12,
+    "category": "WeddingDecorations",
+    "image": "https://source.unsplash.com/featured/?wedding,decor&sig=6",
+    "description": "Grand stage, varmala entries, floral backdrops & premium wedding setups.",
+    "price": 1800,
+    "name": "Elegant Nuptial Affair"
+  },
+  {
+    "id": 13,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=1",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 1000,
+    "name": "LED Love Letters"
+  },
+  {
+    "id": 14,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=2",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 1000,
+    "name": "Romantic Candlelight Setup"
+  },
+  {
+    "id": 15,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=3",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 2000,
+    "name": "Romantic Candlelight Setup"
+  },
+  {
+    "id": 16,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=4",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 1800,
+    "name": "Timeless Moments Decor"
+  },
+  {
+    "id": 17,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=5",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 1000,
+    "name": "Romantic Candlelight Setup"
+  },
+  {
+    "id": 18,
+    "category": "AnniversaryDecorations",
+    "image": "https://source.unsplash.com/featured/?anniversary,decorations&sig=6",
+    "description": "Romantic setups, LED love letters, photo timelines & candlelight vibes.",
+    "price": 1800,
+    "name": "LED Love Letters"
+  },
+  {
+    "id": 19,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=1",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 1800,
+    "name": "Pastel Newborn Vibe"
+  },
+  {
+    "id": 20,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=2",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 2000,
+    "name": "Welcome Baby Arch"
+  },
+  {
+    "id": 21,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=3",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 1500,
+    "name": "Welcome Baby Arch"
+  },
+  {
+    "id": 22,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=4",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 1000,
+    "name": "Welcome Baby Arch"
+  },
+  {
+    "id": 23,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=5",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 1500,
+    "name": "Cradle Balloon Decor"
+  },
+  {
+    "id": 24,
+    "category": "NewbornWelcome",
+    "image": "https://source.unsplash.com/featured/?newborn,decoration&sig=6",
+    "description": "Balloon gates, 'Welcome Baby' signage, soft color themes & cradle decor.",
+    "price": 1800,
+    "name": "Cradle Balloon Decor"
+  },
+  {
+    "id": 25,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=1",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 1500,
+    "name": "Floral Haldi Backdrop"
+  },
+  {
+    "id": 26,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=2",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 1200,
+    "name": "Traditional Sangeet Setup"
+  },
+  {
+    "id": 27,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=3",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 1200,
+    "name": "Jhoola & Mehndi Corner"
+  },
+  {
+    "id": 28,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=4",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 1800,
+    "name": "Floral Haldi Backdrop"
+  },
+  {
+    "id": 29,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=5",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 2000,
+    "name": "Traditional Sangeet Setup"
+  },
+  {
+    "id": 30,
+    "category": "HaldiMehndiSangeet",
+    "image": "https://source.unsplash.com/featured/?haldi,mehndi,sangeet&sig=6",
+    "description": "Yellow floral vibes, jhoolas, photobooth corners & colorful traditional d\u00e9cor.",
+    "price": 1500,
+    "name": "Traditional Sangeet Setup"
+  },
+  {
+    "id": 31,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=1",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 1200,
+    "name": "Elegant Engagement Setup"
+  },
+  {
+    "id": 32,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=2",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 1500,
+    "name": "Shimmer Love Wall"
+  },
+  {
+    "id": 33,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=3",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 1800,
+    "name": "Shimmer Love Wall"
+  },
+  {
+    "id": 34,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=4",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 1800,
+    "name": "Neon Ring Stage"
+  },
+  {
+    "id": 35,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=5",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 1800,
+    "name": "Shimmer Love Wall"
+  },
+  {
+    "id": 36,
+    "category": "RingCeremonyEngagement",
+    "image": "https://source.unsplash.com/featured/?ring,ceremony,engagement&sig=6",
+    "description": "Elegant balloon rings, shimmer walls, neon signs & thematic love d\u00e9cor.",
+    "price": 2000,
+    "name": "Neon Ring Stage"
+  },
+  {
+    "id": 37,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=1",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 1800,
+    "name": "Premium Flower Stage"
+  },
+  {
+    "id": 38,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=2",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 1500,
+    "name": "Premium Flower Stage"
+  },
+  {
+    "id": 39,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=3",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 2000,
+    "name": "Premium Flower Stage"
+  },
+  {
+    "id": 40,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=4",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 1500,
+    "name": "Fresh Floral Backdrop"
+  },
+  {
+    "id": 41,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=5",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 1000,
+    "name": "Premium Flower Stage"
+  },
+  {
+    "id": 42,
+    "category": "FlowerDecorations",
+    "image": "https://source.unsplash.com/featured/?flower,backdrop,decor&sig=6",
+    "description": "Fresh & artificial flower backdrops, centerpieces & stage florals.",
+    "price": 1200,
+    "name": "Artificial Rose Centerpiece"
+  },
+  {
+    "id": 43,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=1",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 1000,
+    "name": "Dry Ice Magic"
+  },
+  {
+    "id": 44,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=2",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 1200,
+    "name": "Dry Ice Magic"
+  },
+  {
+    "id": 45,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=3",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 1800,
+    "name": "Confetti Blast"
+  },
+  {
+    "id": 46,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=4",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 1800,
+    "name": "Confetti Blast"
+  },
+  {
+    "id": 47,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=5",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 2000,
+    "name": "Dry Ice Magic"
+  },
+  {
+    "id": 48,
+    "category": "SpecialEffects",
+    "image": "https://source.unsplash.com/featured/?special,effects,event&sig=6",
+    "description": "Cold pyros, dry ice fog, confetti blasts, CO\u2082 guns & snow showers.",
+    "price": 2000,
+    "name": "Confetti Blast"
+  },
+  {
+    "id": 49,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=1",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 1000,
+    "name": "Mirror Walk Entry"
+  },
+  {
+    "id": 50,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=2",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 1800,
+    "name": "Mirror Walk Entry"
+  },
+  {
+    "id": 51,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=3",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 1200,
+    "name": "Mirror Walk Entry"
+  },
+  {
+    "id": 52,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=4",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 1800,
+    "name": "Fairy Tunnel Entrance"
+  },
+  {
+    "id": 53,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=5",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 2000,
+    "name": "Balloon Drop Welcome"
+  },
+  {
+    "id": 54,
+    "category": "GrandEntries",
+    "image": "https://source.unsplash.com/featured/?grand,entry,decor&sig=6",
+    "description": "Bride & groom entries \u2013 balloon drops, mirror walk, fairy tunnel & more.",
+    "price": 2000,
+    "name": "Mirror Walk Entry"
+  },
+  {
+    "id": 55,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=1",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1200,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 56,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=2",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1500,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 57,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=3",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1800,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 58,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=4",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1500,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 59,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=5",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1800,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 60,
+    "category": "CustomizedBalloonDecor",
+    "image": "https://source.unsplash.com/featured/?balloon,arch,custom&sig=6",
+    "description": "Unique balloon arches, ceiling d\u00e9cor, name setups & color combos.",
+    "price": 1200,
+    "name": "Themed Decoration"
+  },
+  {
+    "id": 61,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=1",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 1200,
+    "name": "Chhathi Celebration Decor"
+  },
+  {
+    "id": 62,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=2",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 2000,
+    "name": "Annaprashan Balloon Theme"
+  },
+  {
+    "id": 63,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=3",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 1500,
+    "name": "Chhathi Celebration Decor"
+  },
+  {
+    "id": 64,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=4",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 1500,
+    "name": "Chhathi Celebration Decor"
+  },
+  {
+    "id": 65,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=5",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 1200,
+    "name": "Chhathi Celebration Decor"
+  },
+  {
+    "id": 66,
+    "category": "KidsCeremonies",
+    "image": "https://source.unsplash.com/featured/?kids,ceremony,theme&sig=6",
+    "description": "Naming ceremony, chhathi, first haircut, annaprashan with cute themes.",
+    "price": 1800,
+    "name": "Chhathi Celebration Decor"
+  },
+  {
+    "id": 67,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=1",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 1200,
+    "name": "Boss Baby Party"
+  },
+  {
+    "id": 68,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=2",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 2000,
+    "name": "Superhero Adventure"
+  },
+  {
+    "id": 69,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=3",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 1500,
+    "name": "Boss Baby Party"
+  },
+  {
+    "id": 70,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=4",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 1500,
+    "name": "Princess Castle Setup"
+  },
+  {
+    "id": 71,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=5",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 1200,
+    "name": "Boss Baby Party"
+  },
+  {
+    "id": 72,
+    "category": "CreativeCustomThemes",
+    "image": "https://source.unsplash.com/featured/?creative,theme,decor&sig=6",
+    "description": "Barbie, Jungle, Boss Baby, Gaming, Princess, Superhero & more!",
+    "price": 1200,
+    "name": "Superhero Adventure"
+  }
+]

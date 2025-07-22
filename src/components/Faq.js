@@ -1,5 +1,6 @@
 // src/components/Faq.js
-import React from 'react';
+import React, { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 
 const Faq = () => {
   const faqs = [
@@ -22,18 +23,39 @@ const Faq = () => {
     },
   ];
 
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggle = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <section id="faq" className="py-20 px-4 bg-gray-50">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+    <section id="faq" className="py-24 bg-[#fffdf4] px-4">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-4xl font-bold text-center text-yellow-800 mb-12">
+          Frequently Asked <span className="text-yellow-600">Questions</span>
+        </h2>
+
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-xl shadow-md transition hover:shadow-lg"
+              className="bg-white border border-yellow-200 p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-xl font-semibold mb-2 text-indigo-700">{faq.question}</h3>
-              <p className="text-gray-700">{faq.answer}</p>
+              <button
+                onClick={() => toggle(index)}
+                className="w-full flex items-center justify-between text-left"
+              >
+                <h3 className="text-lg font-semibold text-gray-800">{faq.question}</h3>
+                <ChevronDown
+                  className={`w-5 h-5 text-yellow-600 transition-transform duration-300 ${
+                    activeIndex === index ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {activeIndex === index && (
+                <p className="mt-4 text-gray-600 leading-relaxed">{faq.answer}</p>
+              )}
             </div>
           ))}
         </div>
