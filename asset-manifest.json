@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/Event/static/css/main.5492b06c.css",
-    "main.js": "/Event/static/js/main.2ad71fac.js",
+    "main.css": "/Event/static/css/main.cd9f725b.css",
+    "main.js": "/Event/static/js/main.eea2a915.js",
     "static/js/453.7df4836d.chunk.js": "/Event/static/js/453.7df4836d.chunk.js",
-    "static/media/img (3).jpg": "/Event/static/media/img (3).7c3b03f6ab985ff448f1.jpg",
-    "static/media/img (2).jpg": "/Event/static/media/img (2).a03f9aa4997bc4757437.jpg",
-    "static/media/img (1).jpg": "/Event/static/media/img (1).646510cceb6082bc02bc.jpg",
     "static/media/people-festival.jpg": "/Event/static/media/people-festival.857de089a46692beaf73.jpg",
+    "static/media/Herobg.jpg": "/Event/static/media/Herobg.e1a57bc3555887315643.jpg",
+    "static/media/haldi.jpg": "/Event/static/media/haldi.9f0e83a495d1bc5bc4d9.jpg",
+    "static/media/ring ceremony.jpg": "/Event/static/media/ring ceremony.d2e9e54c14212c0cf642.jpg",
+    "static/media/BdayImg.jpg": "/Event/static/media/BdayImg.980789f6d8b8eb120bdf.jpg",
+    "static/media/anniversary.jpg": "/Event/static/media/anniversary.546279a588e7856d3eae.jpg",
+    "static/media/creative.jpg": "/Event/static/media/creative.e6d265038f06a63d1c7f.jpg",
+    "static/media/1724946727517.png": "/Event/static/media/1724946727517.bf608d2a81763fe0784b.png",
+    "static/media/newborn baby welcome.webp": "/Event/static/media/newborn baby welcome.a1ac4bcad2d3477b31ad.webp",
+    "static/media/flowers.jpg": "/Event/static/media/flowers.5d9f47d042230dd94fc8.jpg",
+    "static/media/entries.jpg": "/Event/static/media/entries.7ec8ee8b65b56687b587.jpg",
+    "static/media/wedding.avif": "/Event/static/media/wedding.2be38c94b5d08016132b.avif",
+    "static/media/namkaran.webp": "/Event/static/media/namkaran.e460c1be7f9f68462dc5.webp",
+    "static/media/balloon.avif": "/Event/static/media/balloon.e3884775e3c34fed3e15.avif",
+    "static/media/effects.jpg": "/Event/static/media/effects.7e5eb902b0d194c43faa.jpg",
     "index.html": "/Event/index.html",
-    "main.5492b06c.css.map": "/Event/static/css/main.5492b06c.css.map",
-    "main.2ad71fac.js.map": "/Event/static/js/main.2ad71fac.js.map",
+    "main.cd9f725b.css.map": "/Event/static/css/main.cd9f725b.css.map",
+    "main.eea2a915.js.map": "/Event/static/js/main.eea2a915.js.map",
     "453.7df4836d.chunk.js.map": "/Event/static/js/453.7df4836d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5492b06c.css",
-    "static/js/main.2ad71fac.js"
+    "static/css/main.cd9f725b.css",
+    "static/js/main.eea2a915.js"
   ]
 }
